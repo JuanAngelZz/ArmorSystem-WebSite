@@ -7,7 +7,7 @@
     --link: #ffda75;
     --text-primary: #333;
     --text-secondary: #444;
-    --copy: #757575;
+    --copy: #656565;
     --footer: #af142f;
 }
 
@@ -78,17 +78,18 @@ main{
 }
 
 .hero{
-    height: 100vh;
+    height: 800px;
     width: 100%;
     background-image: linear-gradient(to right, hsla(234, 59%, 28%, 0.5), hsla(202, 56%, 49%, 0.5)), url(img/pexels-negative-space-160107.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    position: relative;
 }
 
 .hero__main{
-    height: 85vh;
+    height: 745.62px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -309,8 +310,8 @@ main{
 
 .contact__icon{
     text-align: center;
-    font-size: 2.8em;
-    padding: 1rem;
+    font-size: 2.6em;
+    padding: 0.4em;
     border-radius: 50%;
     color: var(--color-primary);
     background-color: var(--color-secondary);
@@ -541,6 +542,10 @@ footer{
         margin-bottom: 3.125rem;
     }
 
+    .about-us__copy{
+        font-size: 16px;
+    }
+
     .foot{
         flex-direction: column;
     }
@@ -582,13 +587,26 @@ footer{
     .text-container__main{
         font-size: 3.4em;
     }
+
+    .service__title{
+        font-size: 20px;
+    }
     
+    .service__btn{
+        font-size: 16px;
+    }
+
     .contact__icons{
         padding: 0 10px 0 10px;
     }
 
+    .contact__icon{
+        font-size: 24px;
+        padding: 10px;
+    }
+
     .copy__info{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .foot__part1, .foot__part2{
