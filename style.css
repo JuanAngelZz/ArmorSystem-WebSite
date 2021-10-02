@@ -622,3 +622,10 @@ footer{
         width: 100%;
     }
 }
+
+@media screen and (max-width: 320px){
+
+    body{
+        font-size: 10px;
+    }
+}
