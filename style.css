@@ -1,6 +1,6 @@
 /* <---- CORE ----> */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
 :root{
     --color-primary: #fff;
@@ -18,7 +18,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -82,7 +82,7 @@ main{
 .hero{
     height: 50em;
     width: 100%;
-    background-image: linear-gradient(to right, hsla(234, 59%, 28%, 0.5), hsla(202, 56%, 49%, 0.5)), url(img/pexels-negative-space-160107.jpg);
+    background-image: linear-gradient(to right, hsla(234, 59%, 28%, 0.5), hsla(202, 56%, 49%, 0.5)), url(img/75588021_154732295760910_6689631731626682849_n.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -180,7 +180,7 @@ main{
 
 .service__title{
     font-size: 1.175em;
-    margin: 0.625em 0;
+    margin: 0.425em 0;
     letter-spacing: 1px;
     color: var(--text-primary);
 }
@@ -191,6 +191,7 @@ main{
     margin-bottom: 1.25em;
     letter-spacing: 0.8px;
     line-height: 1.1;
+    font-size: 1.05em;
 }
 
 .service__btn{
@@ -274,7 +275,7 @@ main{
 
 .about-us__copy{
     line-height: 1.5;
-    font-size: 1em;
+    font-size: 1.1em;
     color: var(--copy);
     letter-spacing: 1px;
     font-weight: 300;
@@ -288,14 +289,14 @@ main{
     width: 15%;
     height: 3px;
     background: var(--color-secondary);
-    margin-bottom: 1.5em;
+    margin-bottom: 1.2em;
 }
 
 .bar2{
     width: 15%;
     height: 3px;
     background: var(--copy);
-    margin-bottom: 1.5em;
+    margin-bottom: 1.2em;
 }
 
 /* <---- CONTACT ----> */
@@ -348,7 +349,7 @@ main{
     font-weight: 600;
     letter-spacing: 0.8px;
     margin-bottom: 0.4em;
-    color: #000;
+    color: var(--text-primary);
     
 }
 
