@@ -6,6 +6,7 @@ const aboutUs1 = document.querySelector(".about-us__cont")
 const aboutUs2 = document.querySelector(".about-us__cont--reverse")
 const contactCopy = document.querySelector(".contact__copy")
 const contactIcons = document.querySelector(".contact__icons")
+const gallery = document.querySelector(".gallery")
 
 //Animacion principal
 addEventListener("load", ()=>{
@@ -39,5 +40,10 @@ addEventListener("scroll", ()=>{
     let posicion5 = contactIcons.getBoundingClientRect().top;
     if(posicion5 < winHeight){
         contactIcons.classList.add("active")
+    }
+
+    let posicion6 = gallery.getBoundingClientRect().top;
+    if(posicion6 < winHeight){
+        gallery.classList.add("active")
     }
 })
