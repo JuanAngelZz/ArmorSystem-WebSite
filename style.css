@@ -300,6 +300,10 @@ main{
     left: calc(50% - 17px);
 }
 
+.gallery__btn{
+    position: relative;
+}
+
 .gallery__prev, .gallery__next{
     color: var(--color-secondary);
     border-radius: 5px;
